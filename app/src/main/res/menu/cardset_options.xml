@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Create a new category"
+        android:id="@+id/createCategory"></item>
+    <item android:title="Add to existing category"
+        android:id="@+id/addToCategory"></item>
+    <item android:title="Search online for a word"
+        android:id="@+id/searchWord"></item>
+    <item android:title="Delete this cardset"
+        android:id="@+id/deleteCardset"></item>
+    <item android:title="Delete existing category"
+        android:id="@+id/deleteCategory"></item>
+</menu>

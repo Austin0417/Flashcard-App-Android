@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/delete_category_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="84dp">
+
+    <TextView
+        android:id="@+id/card_category_title"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="TextView"
+        android:paddingLeft="80dp"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/categorySelectBox"
+        android:layout_width="38dp"
+        android:layout_height="44dp"
+        app:srcCompat="@android:drawable/checkbox_off_background" />
+</androidx.cardview.widget.CardView>
